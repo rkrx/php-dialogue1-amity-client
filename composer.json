@@ -1,0 +1,21 @@
+{
+    "name": "rkr/dialogue1-amity-client",
+    "description": "A client for Dialogue1 Amity",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Ron Kirschler",
+        "email": "ron.kirschler@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 5.5",
+        "ext-curl": "*",
+        "psr/log": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kir\\Amity\\": "src/"
+        }
+    }
+}
